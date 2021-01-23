@@ -1,0 +1,3 @@
+C:/Users/SovesT/CLionProjects/ascii1/cmake-build-default-mingw/CMakeFiles/ascii1.dir
+C:/Users/SovesT/CLionProjects/ascii1/cmake-build-default-mingw/CMakeFiles/edit_cache.dir
+C:/Users/SovesT/CLionProjects/ascii1/cmake-build-default-mingw/CMakeFiles/rebuild_cache.dir
