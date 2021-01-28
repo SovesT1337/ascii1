@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <string>
-#include <windows.h>
+#include <Windows.h>
 #include <cstdlib>
 using std::cout;
 using std::string;
@@ -18,13 +18,13 @@ using std::cin;
 
 struct person{
     string name;
-    int HP;
-    int MP;
-    int atk;
-    int def;
+    int HP{};
+    int MP{};
+    int atk{};
+    int def{};
 };
 
-struct enemy{
+struct enemy {
     string name;
     int HP;
     int MP;
@@ -33,10 +33,10 @@ struct enemy{
     string skin;
 };
 
-person one;
 
-void create();
+
+void create(person);
 
 enemy batgr();
 
-void battle();
+void battle(person);

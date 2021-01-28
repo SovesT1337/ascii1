@@ -2,7 +2,7 @@
 // Created by SovesT on 24.01.2021.
 //
 
-#include "header.hpp"
+#include "../header/header.hpp"
 
 void status(enemy en1, person one){
     cout << en1.skin;
@@ -45,7 +45,7 @@ void result(person one){
     }
 }
 
-void battle(){
+void battle(person one){
     enemy en1 = batgr();
     while ( one.HP > 0 & en1.HP > 0){
         system("cls");

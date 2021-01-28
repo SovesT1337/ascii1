@@ -3,4 +3,4 @@ project(ascii1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(ascii1 main.cpp Battle.cpp header.hpp enemies.cpp hero.cpp)
+add_executable(ascii1 source/main.cpp source/Battle.cpp header/header.hpp source/enemies.cpp source/hero.cpp)

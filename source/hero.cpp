@@ -2,10 +2,9 @@
 // Created by SovesT on 24.01.2021.
 //
 
-#include "header.hpp"
+#include "../header/header.hpp"
 
-void create(){
-    person pr;
+void create(person one){
     cout << "Enter your characters name: ";
     cin >> one.name;
     cout << endl;
