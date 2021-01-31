@@ -4,7 +4,8 @@
 
 #include "../header/header.hpp"
 
-void create(person one){
+person create(){
+    person one;
     cout << "Enter your characters name: ";
     cin >> one.name;
     cout << endl;
@@ -12,4 +13,5 @@ void create(person one){
     one.MP = 50;
     one.atk = 20;
     one.def = 10;
+    return one;
 }

@@ -35,7 +35,7 @@ struct enemy {
 
 
 
-void create(person);
+person create();
 
 enemy batgr();
 
